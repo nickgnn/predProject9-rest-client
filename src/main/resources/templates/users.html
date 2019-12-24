@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+</head>
+<body>
+
+    <h2>List of Users</h2>
+    <div class="container">
+        <table class="table table-striped">
+            <tr>
+                <td>Id</td>
+                <td>Username</td>
+                <td>Psswrd</td>
+                <td>Age</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+
+            <tr th:each="users:${users}">
+                <td th:text="${users.id}"></td>
+                <td th:text="${users.username}"></td>
+                <td th:text="${users.password}"></td>
+                <td th:text="${users.age}"></td>
+                <td><a class="btn btn-warning editButton">Edit</a></td>
+                <td><a class="btn btn-danger deleteButton">Delete</a></td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>

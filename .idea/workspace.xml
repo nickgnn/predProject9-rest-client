@@ -11,51 +11,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/predProject9_rest_client$App.ic" NAME="App Coverage Results" MODIFIED="1577189256002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.javamentor.predProject9_rest_client.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceRest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserServiceRest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1071#1085#1" expanded="true" />
-                <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-                <element signature="e#1064#1083#0" />
-                <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-                <element signature="e#1653#1672#0" />
-                <element signature="method#createUser#0;class#UserServiceRest#0" />
-                <element signature="method#updateUser#0;class#UserServiceRest#0" />
-                <element signature="e#2712#2713#0" expanded="true" />
-                <element signature="e#2739#2740#0" expanded="true" />
-                <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,29 +44,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="460">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="153">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -126,20 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/domain/User.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="method#User#1;class#User#0" />
-                <element signature="method#User#2;class#User#0" />
-                <element signature="method#User#3;class#User#0" />
-                <element signature="method#User#4;class#User#0" />
-                <element signature="method#User#5;class#User#0" />
-                <element signature="method#User#6;class#User#0" />
-                <element signature="method#User#7;class#User#0" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
@@ -171,15 +142,20 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/RestTemplateConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/CacheConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserServiceRest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/users.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/main.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/ThymeleafViewResolverConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/AdminController.java" />
       </list>
     </option>
   </component>
@@ -200,10 +176,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="2212" />
-    <option name="height" value="1215" />
+    <option name="x" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="2102" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -323,6 +298,23 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="predProject9-rest-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="predProject9-rest-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="predProject9-rest-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="predProject9-rest-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,12 +326,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest/wine-cellar-java-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/predProject9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java\IDEAProjects\web\predProject9-rest-client\src\main\resources\templates" />
+      <recent name="D:\java\IDEAProjects\web\predProject9-rest-client\src\main\resources\static\js" />
+      <recent name="D:\java\IDEAProjects\web\predProject9-rest-client\src\main\resources\static" />
       <recent name="D:\java\IDEAProjects\web\predProject9-rest-client\src\main\resources" />
     </key>
   </component>
@@ -442,11 +437,18 @@
       <workItem from="1576753224442" duration="13000" />
       <workItem from="1576753243937" duration="651000" />
       <workItem from="1576823266999" duration="17334000" />
+      <workItem from="1576914408705" duration="2669000" />
+      <workItem from="1576998001457" duration="1120000" />
+      <workItem from="1577002723166" duration="440000" />
+      <workItem from="1577110132859" duration="158000" />
+      <workItem from="1577110359663" duration="38000" />
+      <workItem from="1577110408507" duration="789000" />
+      <workItem from="1577178612322" duration="10495000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34426000" />
+    <option name="totallyTimeSpent" value="50135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
@@ -469,12 +471,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49953488" weight="0.3302239" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49953488" visible="true" weight="0.32742536" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32976744" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21255814" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2144186" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32976744" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -498,51 +501,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/CacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/RestTemplateConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
@@ -556,8 +514,8 @@
           <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,15 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1460">
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,15 +572,10 @@
           <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1071#1085#1" expanded="true" />
             <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-            <element signature="e#1064#1083#0" />
             <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-            <element signature="e#1653#1672#0" />
             <element signature="method#createUser#0;class#UserServiceRest#0" />
             <element signature="method#updateUser#0;class#UserServiceRest#0" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
             <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
           </folding>
         </state>
@@ -650,8 +594,8 @@
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,15 +616,10 @@
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1071#1085#1" expanded="true" />
             <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-            <element signature="e#1064#1083#0" />
             <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-            <element signature="e#1653#1672#0" />
             <element signature="method#createUser#0;class#UserServiceRest#0" />
             <element signature="method#updateUser#0;class#UserServiceRest#0" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
             <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
           </folding>
         </state>
@@ -709,15 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1460">
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,15 +684,10 @@
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1071#1085#1" expanded="true" />
             <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-            <element signature="e#1064#1083#0" />
             <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-            <element signature="e#1653#1672#0" />
             <element signature="method#createUser#0;class#UserServiceRest#0" />
             <element signature="method#updateUser#0;class#UserServiceRest#0" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
             <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
           </folding>
         </state>
@@ -801,15 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1460">
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,8 +735,8 @@
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,15 +764,10 @@
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1071#1085#1" expanded="true" />
             <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-            <element signature="e#1064#1083#0" />
             <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-            <element signature="e#1653#1672#0" />
             <element signature="method#createUser#0;class#UserServiceRest#0" />
             <element signature="method#updateUser#0;class#UserServiceRest#0" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
             <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
           </folding>
         </state>
@@ -895,15 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1460">
           <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -913,8 +815,8 @@
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -932,32 +834,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserServiceRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
+            <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
+            <element signature="method#createUser#0;class#UserServiceRest#0" />
+            <element signature="method#updateUser#0;class#UserServiceRest#0" />
+            <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -983,82 +945,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="460">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/config/ThymeleafViewResolverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="method#User#1;class#User#0" />
-            <element signature="method#User#2;class#User#0" />
-            <element signature="method#User#3;class#User#0" />
-            <element signature="method#User#4;class#User#0" />
-            <element signature="method#User#5;class#User#0" />
-            <element signature="method#User#6;class#User#0" />
-            <element signature="method#User#7;class#User#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/controllers/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/javamentor/predProject9_rest_client/service/UserServiceRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1071#1085#1" expanded="true" />
-            <element signature="method#UserServiceRest#0;class#UserServiceRest#0" />
-            <element signature="e#1064#1083#0" />
-            <element signature="method#getAllUsers#0;class#UserServiceRest#0" />
-            <element signature="e#1653#1672#0" />
-            <element signature="method#createUser#0;class#UserServiceRest#0" />
-            <element signature="method#updateUser#0;class#UserServiceRest#0" />
-            <element signature="e#2712#2713#0" expanded="true" />
-            <element signature="e#2739#2740#0" expanded="true" />
-            <element signature="method#getDefaultUser#0;class#UserServiceRest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>

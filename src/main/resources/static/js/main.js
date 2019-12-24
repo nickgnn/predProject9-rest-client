@@ -1,7 +1,7 @@
 function getUsername() {
     //function which send ajax request to the server
     $.ajax({
-        url : '/adminRest',
+        url : '/users',
         datatype : 'json',
         type : "post",
         contentType : "application/json",
@@ -9,9 +9,11 @@ function getUsername() {
             id : '2'
         }),
 
+
+
         success : function(data) {
             console.log(data);
-            $("#text1").text(data.password).text(data.username).text(data.age);
+            $("#text1").text(data.username);
         }
     });
 }
@@ -19,12 +21,12 @@ function getUsername() {
 function getAge() {
     //function which send ajax request to the server
     $.ajax({
-        url : '/adminRest',
+        url : '/users',
         datatype : 'json',
         type : "post",
         contentType : "application/json",
         data : JSON.stringify({
-            age : '31'
+            id : '2'
         }),
 
         success : function(data) {
@@ -37,16 +39,17 @@ function getAge() {
 function getUser() {
     //function which send ajax request to the server
     $.ajax({
-        url : '/adminRest',
+        url : '/users',
         datatype : 'json',
         type : "post",
         contentType : "application/json",
         data : JSON.stringify({
+            id : '2'
         }),
 
         success : function(data) {
             console.log(data);
-            $("#text3").text(data);
+            $("#text3").text(data.password);
         }
     });
 }
