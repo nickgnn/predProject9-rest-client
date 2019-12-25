@@ -1,42 +1,176 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <title>Users</title>
-
     <link href="webjars/bootstrap/4.3.1/css/bootstrap.css" rel="stylesheet" />
     <script type="text/javascript" src="webjars/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" th:src="@{js/main.js}" src="../static/js/main.js"></script>
+    <script type="text/javascript" src="../static/js/main.js" th:src="@{js/main.js}"></script>
 
-
+    <meta charset="UTF-8">
+    <title>Users</title>
 </head>
 <body>
-    <div class="container">
-        <h2>List of Users</h2>
-    </div>
+<div class="container">
+    <h2>List of Users</h2>
+</div>
 
-    <div class="container">
-        <table class="table table-striped">
-            <tr>
-                <td>Id</td>
-                <td>Username</td>
-                <td>Psswrd</td>
-                <td>Age</td>
-                <td>Edit</td>
-                <td>Delete</td>
-            </tr>
+<div class="container-fluid">
 
-            <tr th:each="users:${users}">
-                <td th:text="${users.id}"></td>
-                <td th:text="${users.username}"></td>
-                <td th:text="${users.password}"></td>
-                <td th:text="${users.age}"></td>
-                <td><a class="btn btn-warning editButton">Edit</a></td>
-                <td><a class="btn btn-danger deleteButton">Delete</a></td>
-            </tr>
-        </table>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addModal" data-whatever="@mdo">Add new</button>
+
+    <table class="table table-hover table-responsive">
+        <tr>
+            <td class="alert-dark">Id</td>
+            <td>Username</td>
+            <td>Psswrd</td>
+            <td>Age</td>
+            <td>Role</td>
+            <td>Role_ID</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+
+        <tr th:each="user:${users}">
+            <td class="alert-dark" th:text="${user.id}"></td>
+            <td th:text="${user.username}"></td>
+            <td th:text="${user.password}"></td>
+            <td th:text="${user.age}"></td>
+            <td th:text="${user.role}"></td>
+            <td th:text="${user.role_id}"></td>
+            <td><a th:href="@{/oneUser/(Id=${user.Id})}" class="btn btn-warning editButton">Edit</a></td>
+            <td><a th:href="@{/delete/(Id=${user.Id})}" class="btn btn-danger deleteButton">Delete</a></td>
+        </tr>
+
+    </table>
+</div>
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form th:action="@{/addNew}" method="post">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addModalLabel">Fill form below to add new user</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="usernameID" class="col-form-label">Username:</label>
+                        <input type="text" class="form-control" id="usernameID" name="username">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="psswrdID" class="col-form-label">Password:</label>
+                        <input type="text" class="form-control" id="psswrdID" name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ageID" class="col-form-label">Age:</label>
+                        <input type="text" class="form-control" id="ageID" name="age">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="roleID" class="col-form-label">Role:</label>
+                        <input type="text" class="form-control" id="roleID" name="role">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="role_idID" class="col-form-label">Role_ID:</label>
+                        <input type="text" class="form-control" id="role_idID" name="role_id">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Add new User</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form th:action="@{/save}" method="put">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">You can edit user</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="editID" class="col-form-label">ID:</label>
+                        <input type="text" class="form-control" id="editID" name="id" readonly="readonly">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editUsernameID" class="col-form-label">Username:</label>
+                        <input type="text" class="form-control" id="editUsernameID" name="username">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editPsswrdID" class="col-form-label">Password:</label>
+                        <input type="text" class="form-control" id="editPsswrdID" name="password">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editAgeID" class="col-form-label">Age:</label>
+                        <input type="text" class="form-control" id="editAgeID" name="age">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editRoleID" class="col-form-label">Role:</label>
+                        <input type="text" class="form-control" id="editRoleID" name="role">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editRole_idID" class="col-form-label">Role_ID:</label>
+                        <input type="text" class="form-control" id="editRole_idID" name="role_id">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Edit user</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div class="modal" id="deleteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Confirm deletion</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to delete this user?</p>
+            </div>
+
+            <div class="modal-footer">
+                <a type="button" class="btn btn-danger" id="deleteID">Delete</a>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            </div>
+
+        </div>
     </div>
+</div>
+
+
+<script type="text/javascript" src="webjars/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/js/main.js" th:src="@{js/main.js}"></script>
 
 </body>
 </html>

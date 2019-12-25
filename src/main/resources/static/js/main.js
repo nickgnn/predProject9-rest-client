@@ -17,3 +17,32 @@ function getUsername() {
         }
     });
 }
+
+
+$(document).ready(function () {
+    $('.table .editButton').on('click', function (event) {
+        event.preventDefault();
+
+        var href = $(this).attr('href');
+        $.get(href, function (user, status) {
+            $('#editID').val(user.id);
+            $('#editUsernameID').val(user.username);
+            $('#editPsswrdID').val(user.password);
+            $('#editAgeID').val(user.age);
+            $('#editRoleID').val(user.role);
+            $('#editRole_idID').val(user.role_id);
+        });
+
+        $('#editModal').modal();
+    });
+
+    $('.table .deleteButton').on('click', function (event) {
+        event.preventDefault();
+
+        var href = $(this).attr('href');
+
+        $('#deleteModal #deleteID').attr('href', href);
+
+        $('#deleteModal').modal();
+    });
+});

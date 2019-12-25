@@ -27,15 +27,15 @@ public class UserServiceRest implements UserService {
         this.serverUrl = serverUrl;
     }
 
-    @Cacheable("admin")
-    @Retryable(
-            value = Exception.class,
-            maxAttempts = 4,
-            backoff = @Backoff(delay = 3000))
-    @HystrixCommand(
-            fallbackMethod = "getDefaultUser",
-            groupKey = "UserService",
-            commandKey = "getAllUsers")
+//    @Cacheable("admin")
+//    @Retryable(
+//            value = Exception.class,
+//            maxAttempts = 4,
+//            backoff = @Backoff(delay = 3000))
+//    @HystrixCommand(
+//            fallbackMethod = "getDefaultUser",
+//            groupKey = "UserService",
+//            commandKey = "getAllUsers")
     @Override
     public List<User> getAllUsers() {
         return restTemplate.exchange(
@@ -47,11 +47,11 @@ public class UserServiceRest implements UserService {
         ).getBody();
     }
 
-    @Cacheable("admin")
-    @Retryable(
-            value = Exception.class,
-            maxAttempts = 4,
-            backoff = @Backoff(delay = 3000))
+//    @Cacheable("admin")
+//    @Retryable(
+//            value = Exception.class,
+//            maxAttempts = 4,
+//            backoff = @Backoff(delay = 3000))
     @Override
     public User getOneUser(Long id) {
         return restTemplate.exchange(

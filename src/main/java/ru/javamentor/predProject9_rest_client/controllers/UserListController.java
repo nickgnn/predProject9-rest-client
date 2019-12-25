@@ -5,18 +5,49 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import ru.javamentor.predProject9_rest_client.domain.User;
 import ru.javamentor.predProject9_rest_client.service.UserService;
 
 @Controller
-@RequestMapping("users")
 public class UserListController {
     @Autowired
-    UserService userService;
+    private UserService userService;
 
-    @GetMapping
+    @GetMapping("/users")
     public String getUsers(Model model) {
         model.addAttribute("users", userService.getAllUsers());
 
         return "users";
+    }
+
+    @GetMapping("/oneUser")
+    @ResponseBody
+    public User getUserById(Long Id, Model model ) {
+        model.addAttribute("oneUser", userService.getOneUser(Id));
+
+        return userService.getOneUser(Id);
+    }
+
+    @RequestMapping(value="/save", method = {RequestMethod.PUT, RequestMethod.POST, RequestMethod.GET})
+    public String updateUser(User user) {
+        userService.updateUser(user.getId(), user);
+
+        return "redirect:/users";
+    }
+
+    @RequestMapping(value="/addNew", method = {RequestMethod.POST, RequestMethod.PUT, RequestMethod.GET})
+    public String addUser(User user) {
+        userService.createUser(user);
+
+        return "redirect:/users";
+    }
+
+    @RequestMapping(value="/delete", method = {RequestMethod.DELETE, RequestMethod.PUT, RequestMethod.GET})
+    public String deleteUser(Long Id) {
+        userService.deleteUser(Id);
+
+        return "redirect:/users";
     }
 }
