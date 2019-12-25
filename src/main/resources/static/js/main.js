@@ -1,7 +1,7 @@
 function getUsername() {
     //function which send ajax request to the server
     $.ajax({
-        url : '/users',
+        url : '/rest',
         datatype : 'json',
         type : "post",
         contentType : "application/json",
