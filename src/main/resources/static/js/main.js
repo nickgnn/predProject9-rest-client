@@ -24,6 +24,7 @@ $(document).ready(function () {
         event.preventDefault();
 
         var href = $(this).attr('href');
+
         $.get(href, function (user, status) {
             $('#editID').val(user.id);
             $('#editUsernameID').val(user.username);
@@ -44,5 +45,12 @@ $(document).ready(function () {
         $('#deleteModal #deleteID').attr('href', href);
 
         $('#deleteModal').modal();
+    });
+
+
+    $('.addNewButton').on('click', function (event) {
+        event.preventDefault();
+        
+        $('#addModal').modal();
     });
 });
