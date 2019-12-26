@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     $('.addNewButton').on('click', function (event) {
         event.preventDefault();
-        
+
         $('#addModal').modal();
     });
 });
