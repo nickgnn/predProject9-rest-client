@@ -13,7 +13,9 @@ function getUsername() {
             console.log(data);
             $("#text1").text(data.username + '\n');
             $("#text2").text(data.age + '\n');
-            $("#text3").text(data.password)
+            $("#text3").text(data.password + '\n');
+            $("#text4").text(data.role + '\n');
+            $("#text5").text(data.role_id + '\n');
         }
     });
 }
@@ -48,9 +50,29 @@ $(document).ready(function () {
     });
 
 
+
+
     $('.addNewButton').on('click', function (event) {
         event.preventDefault();
-
         $('#addModal').modal();
     });
+
+    $('#submitAddButton').click(function (event) {
+        event.preventDefault();
+
+        addUser();
+    });
+
+    function addUser() {
+        $.ajax({
+            type: "post",
+            url: "/addNew",
+            data: $("#formAdd").serialize(),
+            success: function() {
+                $("#formAdd").reset;
+                $("#addModal").modal('hide');
+                location.reload();
+            }
+        });
+    }
 });

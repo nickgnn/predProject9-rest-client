@@ -45,7 +45,7 @@
 </div>
 
 <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <form th:action="@{/addNew}" method="post">
+    <form id="formAdd">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -84,7 +84,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Add new User</button>
+                    <button type="submit" class="btn btn-primary" id="submitAddButton">Add new User</button>
                 </div>
             </div>
         </div>
