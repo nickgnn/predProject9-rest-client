@@ -63,20 +63,18 @@ $(document).ready(function () {
 
         var form = $('#formAdd');
 
+        var srlzd = form.serialize();
+
         $.ajax({
             type: "post",
             url: "/addNew",
-            data: form.serialize(),
+            data: srlzd,
             success: function() {
                 form.reset;
                 $("#addModal").modal('hide');
                 location.reload();
-            },
-
-            error: function () {
-                alert('error in submit report form');
             }
-        });
+        })
 
     });
 
