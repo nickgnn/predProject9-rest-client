@@ -57,22 +57,28 @@ $(document).ready(function () {
         $('#addModal').modal();
     });
 
-    $('#submitAddButton').click(function (event) {
+
+    $('#submitAddButton').on('click', function (event) {
         event.preventDefault();
 
-        addUser();
-    });
+        var form = $('#formAdd');
 
-    function addUser() {
         $.ajax({
             type: "post",
             url: "/addNew",
-            data: $("#formAdd").serialize(),
+            data: form.serialize(),
             success: function() {
-                $("#formAdd").reset;
+                form.reset;
                 $("#addModal").modal('hide');
                 location.reload();
+            },
+
+            error: function () {
+                alert('error in submit report form');
             }
         });
-    }
+
+    });
+
+
 });
